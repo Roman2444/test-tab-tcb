@@ -4,6 +4,13 @@ window.addEventListener("DOMContentLoaded", () => {
   const addRowBtn = document.querySelector(".table__button--add");
   const submitBtn = document.querySelector(".table__button--submit");
   const searchInp = document.querySelector(".search__input");
+  const deleteBtnFirsRow = tableBody.querySelector(".table__button");
+  const firsRow = tableBody.querySelector(".table__row");
+
+  // удаление  1 строки таблицы
+  deleteBtnFirsRow.addEventListener("click", () => {
+    firsRow.remove();
+  });
 
   // функция добавления новой строки
   function addRow() {
