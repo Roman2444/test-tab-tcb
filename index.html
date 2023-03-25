@@ -34,17 +34,17 @@
           <table class="table">
             <thead>
               <tr class="table__row">
-                <th class="table__header">ФИО</th>
-                <th class="table__header">Должность</th>
-                <th class="table__header">Возраст</th>
-                <th class="table__header">Компетенции</th>
+                <th class="table__header table__header--name">ФИО</th>
+                <th class="table__header table__header--position">Должность</th>
+                <th class="table__header table__header--age">Возраст</th>
+                <th class="table__header table__header--skills">Компетенции</th>
                 <th class="table__header"></th>
               </tr>
             </thead>
             <tbody>
               <tr class="table__row">
-                <td class="table__cell"><input type="text" class="table__input"></td>
-                <td class="table__cell">
+                <td class="table__cell table__cell--name"><input type="text" class="table__input"></td>
+                <td class="table__cell table__cell--position">
                   <select class="table__select">
                     <option value="аналитик">Аналитик</option>
                     <option value="менеджер">Менеджер</option>
@@ -52,8 +52,8 @@
                     <option value="юрист">Юрист</option>
                   </select>
                 </td>
-                <td class="table__cell"><input type="number" class="table__input"></td>
-                <td class="table__cell"><input type="text" class="table__input"></td>
+                <td class="table__cell table__cell--age"><input type="number" class="table__input"></td>
+                <td class="table__cell table__cell--skills"><input type="text" class="table__input"></td>
                 <td class="table__cell"><button class="table__button">Удалить</button></td>
               </tr>
             </tbody>

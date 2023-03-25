@@ -10,8 +10,8 @@ window.addEventListener("DOMContentLoaded", () => {
     const newRow = document.createElement("tr");
     newRow.classList.add("table__row");
     newRow.innerHTML = `
-    <td class="table__cell"><input type="text" class="table__input"></td>
-    <td class="table__cell">
+    <td class="table__cell table__cell--name"><input type="text" class="table__input"></td>
+    <td class="table__cell table__cell--position">
       <select class="table__select">
         <option value="аналитик">Аналитик</option>
         <option value="менеджер">Менеджер</option>
@@ -19,8 +19,8 @@ window.addEventListener("DOMContentLoaded", () => {
         <option value="юрист">Юрист</option>
       </select>
     </td>
-    <td class="table__cell"><input type="number" class="table__input"></td>
-    <td class="table__cell"><input type="text" class="table__input"></td>
+    <td class="table__cell table__cell--age"><input type="number" class="table__input"></td>
+    <td class="table__cell table__cell--skills"><input type="text" class="table__input"></td>
     <td class="table__cell"><button class="table__button">Удалить</button></td>
   `;
     tableBody.appendChild(newRow);
