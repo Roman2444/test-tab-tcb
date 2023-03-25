@@ -1,73 +1,76 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet"  href="css/style.css">
-	<title>Таблица сотрудников</title>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Таблица сотрудников</title>
 </head>
+
 <body>
-	<div class="page">
-		<header class="header">
-			<div class="header__search search">
-				<input class="search__input" type="text" placeholder="Поиск...">
-			</div>
-		</header>
-		<main class="main">
-			<nav class="sidebar">
+  <div class="page">
+    <header class="header">
+      <div class="header__search search">
+        <input class="search__input" type="text" placeholder="Поиск...">
+      </div>
+    </header>
+    <main class="main">
+      <nav class="sidebar">
         <div class="sidebar__title">
           Меню
           <hr>
         </div>
-				<ul class="sidebar__list">
-					<li class="sidebar__item"><a class="sidebar__link" href="#">Пункт 1</a></li>
-					<li class="sidebar__item"><a class="sidebar__link" href="#">Пункт 2</a></li>
-					<li class="sidebar__item"><a class="sidebar__link" href="#">Пункт 3</a></li>
-					<li class="sidebar__item"><a class="sidebar__link" href="#">Пункт 4</a></li>
-				</ul>
-			</nav>
-			<section class="content">
+        <ul class="sidebar__list">
+          <li class="sidebar__item"><a class="sidebar__link" href="#">Пункт 1</a></li>
+          <li class="sidebar__item"><a class="sidebar__link" href="#">Пункт 2</a></li>
+          <li class="sidebar__item"><a class="sidebar__link" href="#">Пункт 3</a></li>
+          <li class="sidebar__item"><a class="sidebar__link" href="#">Пункт 4</a></li>
+        </ul>
+      </nav>
+      <section class="content">
         <div class="table-container">
-            <table class="table">
-              <thead>
-                <tr class="table__row">
-                  <th class="table__header">ФИО</th>
-                  <th class="table__header">Должность</th>
-                  <th class="table__header">Возраст</th>
-                  <th class="table__header">Компетенции</th>
-                  <th class="table__header"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr class="table__row">
-                  <td class="table__cell"><input type="text" class="table__input"></td>
-                  <td class="table__cell">
-                    <select class="table__select">
-                      <option value="аналитик">Аналитик</option>
-                      <option value="менеджер">Менеджер</option>
-                      <option value="программист">Программист</option>
-                      <option value="юрист">Юрист</option>
-                    </select>
-                  </td>
-                  <td class="table__cell"><input type="number" class="table__input"></td>
-                  <td class="table__cell"><input type="text" class="table__input"></td>
-                  <td class="table__cell"><button class="table__button">Удалить</button></td>
-                </tr>
-              </tbody>
-            </table>
-            <div class="table__buttons-container">
-              <button class="table__button table__button--add">Добавить</button>
-              <button class="table__button table__button--submit">Отправить</button>
-            </div>
+          <table class="table">
+            <thead>
+              <tr class="table__row">
+                <th class="table__header">ФИО</th>
+                <th class="table__header">Должность</th>
+                <th class="table__header">Возраст</th>
+                <th class="table__header">Компетенции</th>
+                <th class="table__header"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table__row">
+                <td class="table__cell"><input type="text" class="table__input"></td>
+                <td class="table__cell">
+                  <select class="table__select">
+                    <option value="аналитик">Аналитик</option>
+                    <option value="менеджер">Менеджер</option>
+                    <option value="программист">Программист</option>
+                    <option value="юрист">Юрист</option>
+                  </select>
+                </td>
+                <td class="table__cell"><input type="number" class="table__input"></td>
+                <td class="table__cell"><input type="text" class="table__input"></td>
+                <td class="table__cell"><button class="table__button">Удалить</button></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table__buttons-container">
+            <button class="table__button table__button--add">Добавить</button>
+            <button class="table__button table__button--submit">Отправить</button>
           </div>
-                   
-			</section>
-		</main>
-		<footer class="footer">
-			<p>&copy; Все права защищены</p>
-		</footer>
-	</div>
+        </div>
+
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; Все права защищены</p>
+    </footer>
+  </div>
   <script src="js/script.js"></script>
 </body>
+
 </html>
