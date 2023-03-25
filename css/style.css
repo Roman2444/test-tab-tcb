@@ -1,0 +1,158 @@
+*   {
+  font-family: 'Roboto', sans-serif;
+}
+
+.page {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	background-color: #f1f1f1;
+}
+
+.search {
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+}
+
+.search__input {
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+}
+
+.main {
+	display: flex;
+	flex: 1;
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	width: 15%;
+	background-color: #f1f1f1;
+}
+
+.sidebar__title {
+  padding: 10px;
+}
+
+.sidebar__list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.sidebar__item {
+	margin: 5px 0;
+}
+
+.sidebar__link {
+	display: block;
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+}
+
+.sidebar__link:hover {
+	background-color: #ddd;
+}
+
+.content {
+	flex: 1;
+	padding: 20px;
+}
+
+.footer {
+	background-color: #f1f1f1;
+	padding: 10px;
+	text-align: center;
+}
+
+
+/* таблица */
+/* ======== */
+
+
+.table-container {
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+
+  .table__header {
+    padding: 10px;
+    background-color: #eee;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+ 
+  .table__row:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+ 
+  .table__cell {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+  .table__input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .table__select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .table__button {
+    padding: 5px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .table__button:active {
+    transform: translateY(2px);
+    box-shadow: none;
+  }
+
+
+  .table__buttons-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+  }
+
+  .table__button--add {
+    background-color: #387ee8;
+  }
+  
+  .table__button--submit {
+    background-color: #4CAF50;
+  }
+  
+
+  
