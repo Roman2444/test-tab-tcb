@@ -75,10 +75,10 @@ window.addEventListener("DOMContentLoaded", () => {
       }
 
       // получение данных из полей в строке
-      const fio = row.querySelector('input[type="text"]').value;
-      const position = row.querySelector("select").value;
-      const age = row.querySelector('input[type="number"]').value;
-      const skills = row.querySelectorAll('input[type="text"]')[1].value;
+      const fio = row.querySelector(".table__cell--name").value;
+      const position = row.querySelector(".table__select").value;
+      const age = row.querySelector(".table__cell--age").value;
+      const skills = row.querySelector(".table__cell--skills").value;
 
       // добавление данных в массив
       data.push({
