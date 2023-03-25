@@ -121,7 +121,42 @@
     padding: 5px;
     box-sizing: border-box;
   }
+  .table__header--name {
+    width: 200px;
+  }
   
+  .table__header--position {
+    width: 100px;
+  }
+  
+  .table__header--age {
+    width: 50px;
+  }
+  
+  .table__header--skills {
+    width: 200px;
+  }
+  
+  .table__cell {
+    padding: 10px;
+  }
+  
+  .table__cell--name {
+    width: 200px;
+  }
+  
+  .table__cell--position {
+    width: 100px;
+  }
+  
+  .table__cell--age {
+    width: 50px;
+  }
+  
+  .table__cell--skills {
+    width: 200px;
+  }
+
   .table__button {
     padding: 5px;
     background-color: #ff4d4d;
