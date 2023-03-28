@@ -42,7 +42,7 @@
   border: 1px solid red;
 }
 
-.sidebar__title {
+.sidebar__title--main {
   margin-top: 50px;
   padding: 10px;
 }
